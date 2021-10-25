@@ -184,8 +184,9 @@ function showBlackEdition() {
 }
 selectBlackEdition.addEventListener("click",showBlackEdition);
 
+
 //Select "Mahogany special edition"
-// const selectMahogany= document.getElementById("select-mahogany");
+// var selectMahogany= document.getElementById("select-mahogany");
 
 // function showMahogany() {
 //   modal.style.display = "block";
@@ -288,6 +289,9 @@ continue3.addEventListener("click", function(){
   widthRange = total.textContent / 1000;
   range.style.width = widthRange+"%";
 });
+
+//Out of stock
+
 
 //Hamburger
 var burgerMenu = document.getElementById('burger-menu');

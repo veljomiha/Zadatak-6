@@ -428,6 +428,7 @@ input[type=radio]{
     height: 48px;
 }
 
+
 /* .text1>p:first-child {
     font-weight: bold;
     font-size: 16px;
@@ -970,6 +971,10 @@ input[type=radio]{
     #rb3,
     #rb4 {
         margin-right: 16px;
+    }
+    input[type=radio]{
+        width: auto;
+        height: 48px;
     }
 
     .modal-content--box2 {
