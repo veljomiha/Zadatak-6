@@ -211,6 +211,7 @@ body {
     border-radius: 33.5px;
     height: 12px;
     width: 89.91%;
+    max-width: 100%;
 }
 
 .section-for {

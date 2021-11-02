@@ -249,7 +249,7 @@ continue2.addEventListener("click", function(){
   left2Main.textContent = left2MainFloat - 1;
 
 //Range 
-  widthRange = total.textContent / 1000;
+  let widthRange = totalResult / 1000;
   range.style.width = widthRange+"%";
 });
 
@@ -286,7 +286,7 @@ continue3.addEventListener("click", function(){
   left3Main.textContent = left3MainFloat - 1;
 
 //Range 
-  widthRange = total.textContent / 1000;
+  let widthRange = totalResult / 1000;
   range.style.width = widthRange+"%";
 });
 
